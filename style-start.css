@@ -1,0 +1,245 @@
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #131313;
+}
+
+.Meny {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    word-spacing: 250px;
+    color: #d45066;
+    font-family: 'Pacifico', cursive; 
+    
+}
+
+a {
+    font-size: 3em;
+}
+
+.text-bild {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bild h1 {
+    position: absolute;
+    font-size: 5em;
+}
+
+.entre-bild {
+    width: 85%;
+    height: 90%;
+    margin: 0px auto;
+    display: block;
+    border: 5px; 
+    border-style: solid;
+    border-color: #d45066;
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px;  
+    }
+
+    .line {
+        border: solid 3px;
+        width: 99.7%;
+        color: #d45066;
+    }
+
+    .text-bild h1 {
+        color: #d45066;
+        font-family: 'Pacifico', cursive;
+    }
+
+    .text-bild img {
+        height: 1000px;
+    }
+
+    .Meny:visited {
+        text-decoration: none;
+        color: #d45066;
+    }
+
+    .info {
+        color: #d45066;
+    }
+
+    a:visited {
+        color: #d45066;
+        background-color: transparent;
+        text-decoration: none;
+
+      }
+
+      a:link {
+        text-decoration: none;
+        
+      }
+
+      a:hover {
+        color: #FF6875;
+      }
+
+      .Rubrik h1 {
+        color: #d45066;
+        display: flex;
+        justify-content: center;
+        font-size: 3em;
+
+      }
+
+       .Rubrik h2{
+        color: #d45066;
+        display: flex;
+        justify-content: center;
+
+      }
+
+      .bild-gång {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 14em;
+        float: left;
+      }
+
+      legend {
+        color: #d45066;
+        
+      }
+
+      .text {
+        color: #d45066;
+        font-size: 20px;
+        padding-left: 70px;
+        margin-right: 600px;
+        
+      }
+
+      footer {
+        color: #d45066;
+      }
+
+      .video {
+        border: 5px; 
+        border-style: double;
+        border-color: #d45066;
+        border-radius: 5px;
+      }    
+      
+      .top {
+        color: #131313;
+        border-radius: 5px; 
+        font-size: 2em;
+      }
+
+      .top:hover {
+        color: #FF6875;
+      }
+
+      .datum {
+        color: #d45066;
+        font-size: 50px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .datum input {
+        color: #131313;
+        background-color: #d45066;
+      }
+
+      .datum select {
+        color: #131313;
+        background-color: #d45066;
+      }
+
+      .knapp {
+        color: #131313;
+        background-color: #d45066;
+        font-size: 3em;
+        width: 5em;
+        border-radius: 10px;
+
+      }
+
+      .boka {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .knapp:hover {
+        background-color: #FF6875;
+      }
+
+      .rum-namn {
+        font-size: 3em;
+        color: #d45066;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .datum input:hover {
+        background-color: #FF6875;
+      }
+
+      .datum select:hover {
+        background-color: #FF6875;
+      }
+
+      .hide {
+        display: none;
+      }
+
+      .hideKontakt {
+        display: none;
+      }
+      
+      /* @media screen and (min-width: 1000px) {
+        div.knepp {
+          display: none;
+        }
+      } */
+      
+      /* @media screen and (max-width: 1000px) {
+         .Meny {
+          display: none;
+         }
+      } */
+
+      .knepp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+      .menyButton {
+        color: #131313;
+        background-color: #d45066;
+        border-radius: 10px;
+        font-size: 2em;
+      }
+      .menyButton:hover {
+        background-color: #FF6875;
+      }
+
+      .bilder {
+        display: flex;
+        justify-content: space-around;
+      }
+
+
+      
+
+
+
+      
+
+    
+    

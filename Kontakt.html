@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-start.css">
+    <link rel="stylesheet" href="style-start.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Kontakt-Sida</title>
+</head>
+<body>
+
+<!--Success Criterion 2.1.1 Keyboard-->
+
+    <nav class="Meny">
+        <a href="Hotell-Startsida.html">Dag-Ludvig</a> <a href="Hotellrum.html">Hotellrum</a> <a href="Kontakt.html">Konakt</a>
+    </nav>
+    
+        <div class="line"></div>
+
+        <form id="Kontakt-js"> 
+            <fieldset>
+                <legend>Kontakta oss:</legend>
+
+                <div>
+                <section class="KontaktKlass">
+            <input type="text" name="name" required placeholder="Namn"> <!--Nivå A WCAG -->
+            <br><br>
+            <input type="email" name="email"  placeholder="E-Post">
+            <br><br>
+            <input type="number" name="number" placeholder="Telefonnummer">
+            <br><br>
+            
+            <select name="ärende" required>
+                <option value="" disabled selected>Ange ditt ärende...</option>
+                <option value="Bokning">Bokning</option>
+                <option value="Fråga">Avbokning</option>
+                <option value="Annat">Annat</option>
+            </select>
+
+            <br><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Meddelande"></textarea>
+            <br><br>
+
+            <div class="kneppTwo">
+
+            <button class="Skicka" id="Skicka-js">Skicka</button>  
+
+            </div>
+
+            </section>
+
+            </div>
+
+        </fieldset>
+        
+        </form>
+
+        <footer>
+            .
+        </footer>
+    
+        <div class="line"></div>
+    
+        <footer>
+            <p>Hotell av Alex</p>
+            <br>
+            Telefon: 112
+        </footer>
+    
+        <br>
+    
+        <a href="#top" class="top">Back to the top!</a> 
+        
+
+        <script src="/hotell.js"></script>
+    
+</body>
+</html>
